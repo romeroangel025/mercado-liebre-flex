@@ -104,7 +104,7 @@
  
 /* ****************   Version movil   ******************* */
 
-@media (max-width: 768px) {
+@media (max-width: 854px) {
   .home__header__contain .home__header__nav {
     display: none;
   }
@@ -127,12 +127,14 @@
 
   .home__header__nav__1 {
     display: flex;
+    font-size: 1rem;
     gap: 10px;
     list-style: none;
   }
 
   .home__header__nav__2 {
     display: flex;
+    font-size: 1rem;
     gap: 10px;
     list-style: none;
   }
@@ -158,7 +160,7 @@
   }
 
   .home__header_search input {
-    max-width: 250px;
+    max-width: 900px;
   
     padding: 10px;
     border-radius: 5px;
